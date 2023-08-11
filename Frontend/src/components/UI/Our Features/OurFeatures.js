@@ -1,0 +1,23 @@
+import classes from './OurFeatures.module.css';
+import Card from './Card';
+
+const OurFeatures = () => {
+  return (
+    <div className={`${classes.bg}`}>
+      <div className={`${classes.heading}`}>
+        CREATE A DOCUMENT IN CLICK OF A BUTTON
+      </div>
+      <div className={`${classes.subheading}`}>OUR FEATURES.</div>
+      <div className={`${classes.cards}`}>
+        <Card name="Create an offer letter" link="/offer_letter/details" />
+        <Card
+          name="Create a single-column resume"
+          template="single-column"
+          link="/resume/details"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default OurFeatures;
