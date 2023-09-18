@@ -27,7 +27,6 @@ A full stack web-app where users can generate different kinds of letter like ful
  * Express
  * MongoDB
  * React OAuth2|Google
- * JWT-Decode
 
 ## Home Page
 <img width="720" alt="Screenshot 2023-08-12 at 4 42 35 PM" src="https://github.com/nishant3005/offer-generator/assets/89506403/c401e24e-3149-42ae-bac8-295ce5d4704a">
